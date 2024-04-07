@@ -22,5 +22,5 @@ if __name__ == "__main__":
     for img_id in valid_ids:
         print(f"Image ID: {img_id}, Result: {plate_reader_client.read_number(img_id)}")
 
-    print("Testing reading several numbers:")
+    print("Testing reading multiple numbers:")
     print(f"Image IDs: {valid_ids}, Result: {plate_reader_client.read_multiple_numbers(valid_ids)}")
